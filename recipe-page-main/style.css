@@ -1,0 +1,92 @@
+body{
+  background-color: hsl(30, 54%, 90%);
+  margin: 0;
+  font-family: 'Young Serif';
+  font-weight: 400;
+}
+
+main{
+  background-color: white;
+  padding: 1.5em;
+  margin: 4em 20em;
+  border-radius: 1.1em;
+}
+
+.image-omelette{
+  width: 100%;
+  border-radius: 1.1em;
+}
+
+.preparation-time-section{
+  background-color: #fff7fc;
+  padding-bottom: 10px;
+}
+
+.preparation-time-headline{
+  padding-top: 1.5em;
+  padding-left: 1.1em;
+  color:#6c2e45;
+}
+
+.preparation-time-section ul{
+  line-height: 2.1em;
+}
+
+.ingredients-section,
+.instructions-section{
+  border-bottom: 1px solid rgb(225, 225, 225);
+}
+
+.ingredients-headline,
+.instructions-headline,
+.nutrition-headline,
+.instructions-section ol li::marker,
+.td-color-change{
+  color: brown;
+}
+
+.ingredients-section ul{
+  line-height: 2em;
+  margin-left: -1.1em;
+}
+
+.ingredients-section ul li{
+  padding-left: 1em;
+}
+
+.instructions-section ol{
+  line-height: 2em;
+}
+
+.instructions-section ol li{
+  margin-left: -1.1em;
+  padding-left: 1em;
+}
+
+.nutrition-table{
+  width: 100%;
+}
+
+.nutrition-table tr td{
+  border-bottom: 1px solid rgb(225, 225, 225);
+  line-height: 2em;
+}
+
+.attribution{
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3em;
+  text-align: center;
+}
+
+@media screen and (max-width: 860px){
+  body{
+    background-color: white;
+  }
+  main{
+    margin: 0;
+    border-radius: none;
+  }
+}
